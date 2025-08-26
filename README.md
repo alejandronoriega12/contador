@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 🔢 Contador con Logo Interactivo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto académico desarrollado con **React + Vite** y **Bulma**, que implementa un contador representado por un **logo SVG personalizado**.  
+El contador permite incrementar o decrementar un valor haciendo clic en las flechas dentro del logo.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Vista previa
+![Vista previa del contador](./captura1.png)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologías utilizadas
+- [React](https://react.dev/) – Librería para interfaces
+- [Vite](https://vitejs.dev/) – Bundler rápido para desarrollo
+- [Bulma](https://bulma.io/) – Framework CSS para estilos responsivos
+- **SVG** – Gráficos vectoriales escalables para el logo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Estructura del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+src/
+├── App.js          # Componente principal
+├── Anillo.js       # Componente del logo/contador interactivo
+├── main.jsx        # Punto de entrada con ReactDOM
+└── index.css       # Estilos globales (Bulma importado)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Instalación y uso
 
-### `npm run eject`
+Clona el repositorio y entra a la carpeta:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/alejandronoriega12/contador.git
+cd mi-contador-logo
+````
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instala dependencias:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ejecuta en modo desarrollo:
 
-## Learn More
+```bash
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Abre en tu navegador:
+👉 `http://localhost:3000`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🖱️ Uso del contador
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Flecha verde (↑):** incrementa en `+1`
+* **Flecha roja (↓):** decrementa en `-1`
+* El valor se muestra en el centro del logo.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📖 Aprendizajes
 
-### Making a Progressive Web App
+* Integración de **React** con **SVGs interactivos**.
+* Uso de **Bulma** para estructurar y dar estilo a la interfaz.
+* Manejo de estado con **React Hooks (`useState`)**.
+* Buenas prácticas de estructura en proyectos con **Vite**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📜 Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este proyecto se realizó con fines **educativos**.
+Puedes usarlo, modificarlo y adaptarlo libremente.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
