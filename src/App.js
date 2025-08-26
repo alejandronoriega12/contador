@@ -14,7 +14,7 @@ export default function App() {
           React.createElement(
             "h1",
             { className: "title is-2", key: "h1" },
-            "Anillo Contador"
+            "Circullo Contador"
           ),
           React.createElement(Anillo, { key: "anillo" }),
           React.createElement(
